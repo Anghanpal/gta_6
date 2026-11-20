@@ -1054,4 +1054,39 @@
     max-width: 100%;
     font-size: 16px;
   }
+
+  .about-hero {
+    display: block;
+    min-height: 0;
+    padding: 62px 0 0;
+    background: #0d1016;
+  }
+
+  .about-hero > img {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about-hero .detail-hero-shade {
+    inset: 62px 0 auto;
+    height: 56.25vw;
+  }
+
+  .about-hero .detail-hero-copy {
+    padding: 23px 23px 28px;
+    background: #0d1016;
+  }
+
+  .about-hero .detail-hero-note {
+    position: static;
+    display: block;
+    padding: 0 23px 15px;
+    background: #0d1016;
+    text-align: right;
+  }
 }
