@@ -296,7 +296,7 @@ h1 em, h2 em { color: var(--lime); font-style: normal; }
   .brand-name { font-size: 16px; }
   .main-nav { inset: 62px 0 0; padding-right: 24px; padding-left: 24px; }
   .hero { min-height: 720px; min-height: 100svh; align-items: center; padding: 100px 23px 105px; }
-  .hero-art { object-position: 56% center; }
+  .hero-art { object-position: 62% center; }
   .hero-shade { background: linear-gradient(90deg, #101210b8, #10121042), linear-gradient(0deg, #101210a8, transparent 65%); }
   .hero-content { width: 100%; margin-top: 45px; }
   .hero-eyebrow { max-width: 290px; font-size: 8px; line-height: 1.7; }
