@@ -1,0 +1,5 @@
+{
+  "terminal.integrated.env.windows": {
+    "PATH": "${env:LOCALAPPDATA}\\Programs\\NodeJS-v26.13.1\\node-v26.13.1-win-x64;${env:PATH}"
+  }
+}

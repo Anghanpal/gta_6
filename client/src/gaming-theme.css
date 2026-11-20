@@ -1,0 +1,307 @@
+:root {
+  color-scheme: dark;
+  --ink: #f0f1ed;
+  --ink-soft: #11141a;
+  --paper: #0a0c11;
+  --muted: #9da2ac;
+  --lime: #ff5947;
+  --pink: #ff9a4a;
+  --line: rgba(235, 239, 244, .15);
+}
+
+html { background: #080a0f; }
+html, body { overflow-x: clip; }
+body.detail-page {
+  background-color: #080a0f;
+  background-image: linear-gradient(rgba(190, 202, 220, .035) 1px, transparent 1px), linear-gradient(90deg, rgba(190, 202, 220, .035) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+body {
+  color: #eef0ed;
+  background-color: #080a0f;
+  background-image: linear-gradient(rgba(190, 202, 220, .035) 1px, transparent 1px), linear-gradient(90deg, rgba(190, 202, 220, .035) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+::selection { color: #080a0f; background: #ff704d; }
+.site-header { border-color: rgba(232, 236, 243, .17); background: rgba(8, 10, 15, .55); backdrop-filter: blur(12px); }
+.brand-mark { border-color: #ff5947; color: #ff7450; box-shadow: 0 0 18px #ff594722; }
+.brand-name b { color: #ff7450; }
+.main-nav a::after { background: #ff6048; }
+.main-nav a:hover, .main-nav a:focus-visible { color: #ffb078; }
+.icon-button:hover { color: #ff9a4a; }
+.search-panel { border: 1px solid #383b43; color: #f0f1ed; background: #11141a; box-shadow: 0 20px 55px #000a; }
+.search-panel label { color: #d3d5d9; }
+.search-panel input { border-color: #454850; color: #f2f2ed; background: #080a0f; }
+.search-result { border-color: #333740; }
+.search-empty { color: #9ca1aa; }
+.hero { background: #11151b; }
+.hero-shade { background: linear-gradient(90deg, rgba(7,9,13,.91) 0%, rgba(7,9,13,.58) 44%, rgba(7,9,13,.08) 85%), linear-gradient(0deg, rgba(7,9,13,.72), transparent 46%); }
+.hero-eyebrow { color: #e0e2e4; }
+.live-dot, .release-rule { background: #ff684d; }
+.live-dot { box-shadow: 0 0 14px #ff684d99; }
+.hero-subtitle { color: #e5e7e8; }
+.button-lime { color: #100d0b; background: #ff684d; }
+.button-lime:hover { background: #ff9a4a; }
+.button-glass { border-color: #ffffff65; color: #fff; background: #11141a66; }
+.button-glass:hover { background: #252930aa; }
+.release-note b { color: #ff9a4a; }
+.hero-watch:hover .play-icon { border-color: #ff684d; color: #100d0b; background: #ff684d; }
+.section-kicker { color: #a7abb2; }
+.section-kicker > span { color: #ff8652; }
+.text-link { border-color: #555962; color: #f0f1ed; }
+.text-link:hover { color: #ff9a4a; }
+.intro, .feature-section, .news-section, .timeline-section, .fact-section, .context-section, .map-section, .region-detail-content, .profile-content, .vehicle-directory, .vehicle-detail-content, .missions-directory, .explorer-content, .encyclopedia-content, .source-note, .profile-source-note, .vehicle-detail-footer {
+  color: #eef0ed;
+  background-color: #0d1016;
+  background-image: linear-gradient(rgba(190, 202, 220, .025) 1px, transparent 1px), linear-gradient(90deg, rgba(190, 202, 220, .025) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+.intro h2, .section-heading h2, .timeline-top h2, .gallery-heading h2 { color: #eff0ec; }
+.intro h2 em, .section-heading h2 em, .timeline-top h2 em, .gallery-heading h2 em { color: #ff8050; }
+.intro-text p, .map-copy > p, .gear-copy > p { color: #b7bbc1; }
+.intro-meta { border-color: #373b44; color: #9ca1aa; }
+.section-kicker { color: #a5a9b1; }
+.section-heading > .text-link { border-color: #555a64; }
+.character-card { background: #171a20; }
+.character-aside { color: #f1f0eb; background: #171a20; border: 1px solid #333842; }
+.aside-mark { color: #ff704d; }
+.character-aside p { color: #f0f1ed; }
+.character-aside small { color: #aeb2b8; }
+.aside-line { background: #ff704d; }
+.vehicles-section, .mission-section, .gallery-section, .gear-section, .official-section, .story-section, .related-section, .extended-look { color: #eef0ed; background-color: #090b10; background-image: linear-gradient(rgba(190, 202, 220, .03) 1px, transparent 1px), linear-gradient(90deg, rgba(190, 202, 220, .03) 1px, transparent 1px); background-size: 48px 48px; }
+.vehicles-section { border-top: 1px solid #20242c; border-bottom: 1px solid #242832; }
+.section-heading-light h2 { color: #f0f1ed; }
+.section-heading-light .section-kicker, .mission-copy .section-kicker, .gear-copy .section-kicker { color: #a2a7af; }
+.section-heading-light h2 em, .mission-copy h2 em, .closing-copy h2 em { color: #ff8750; }
+.heading-note, .section-tail { color: #a8abb2; }
+.text-link-light { border-color: #555962; color: #f1f1ed; }
+.vehicle-card { background: #171a20; }
+.mission-copy > p:not(.mission-label) { color: #b9bdc3; }
+.mission-label { color: #ff9a4a; }
+.button-dark { color: #130e0a; background: #ff8750; }
+.button-dark:hover { background: #ffb064; }
+.mission-stamp { border-color: #ff654d; color: #ff8c56; }
+.map-section { background-color: #0e1218; }
+.location-list { border-color: #353a43; }
+.location-list a { border-color: #353a43; color: #e8e9e5; }
+.location-list a span { color: #ff8b53; }
+.location-list a i { color: #ff8050; }
+.gear-copy h2 em { color: #ff8c53; }
+.gear-copy > p { color: #b7bbc1; }
+.gear-copy .text-link { border-color: #575b63; }
+.news-section { background-color: #0e1117; }
+.news-meta { color: #a0a4ab; }
+.news-card { color: #f0f1ed; }
+.news-card h3 { color: #f1f1ed; }
+.news-arrow { color: #ff8250; }
+.news-category { color: #110d0b; background: #ff704d; }
+.timeline-section { background-color: #0e1117; }
+.timeline-top h2 em { color: #ff8750; }
+.timeline::before { background: #41454d; }
+.timeline-dot { border-color: #0e1117; background: #ff684d; box-shadow: 0 0 0 1px #ff684d; }
+.timeline-item time { color: #ff9258; }
+.timeline-item h3 { color: #eff0ec; }
+.timeline-item p { color: #aeb2b8; }
+.timeline-item a { border-color: #555962; color: #e5e6e2; }
+.timeline-current .timeline-dot { background: #ffad63; box-shadow: 0 0 0 1px #ffad63, 0 0 0 5px #ffad6330; }
+.closing-cta { background: #171a20; }
+.closing-shade { background: linear-gradient(90deg, #090b10df, #090b1070 68%, #090b1038); }
+.site-footer { color: #eceeea; background: #07090d; border-top: 1px solid #282c34; }
+.footer-label { color: #a1a5ad; }
+.footer-about p, .footer-links a { color: #b5b8be; }
+.footer-links a:hover, .footer-bottom > a:hover { color: #ff9a4a; }
+.footer-bottom { border-color: #292d35; }
+.footer-bottom p { color: #92969f; }
+.footer-bottom p b { color: #d9dad6; }
+.footer-bottom > span, .footer-bottom > a { color: #a6a9af; }
+.detail-page, .detail-page .detail-shell { color: #eef0ed; }
+.detail-page .detail-header { background: #080a0db8; }
+.detail-hero, .history-hero, .database-hero, .character-profile-hero, .vehicle-database-hero, .vehicle-detail-hero, .missions-hero, .news-archive-hero, .news-detail-hero, .region-detail-hero, .weapon-detail-hero { background-color: #14171c; }
+.detail-hero-shade, .history-hero-shade, .database-hero-shade, .character-profile-hero .profile-hero-shade, .vehicle-database-hero-shade, .vehicle-detail-hero-shade, .missions-hero-shade, .news-archive-hero-shade, .news-detail-shade, .region-detail-shade, .weapon-detail-shade { background-image: linear-gradient(90deg, #080a0ee3, #080a0e73 60%, #080a0e1a), linear-gradient(0deg, #080a0ed8, transparent 68%); }
+.detail-hero h1 em, .history-hero h1 em, .database-hero h1 em, .character-profile-hero h1 em, .vehicle-database-hero h1 em, .vehicle-detail-hero h1 em, .missions-hero h1 em, .news-archive-hero h1 em, .region-detail-hero h1 em { color: #ff8050; }
+.detail-page .section-kicker { color: #a4a9b1; }
+.detail-page .section-kicker > span { color: #ff8d54; }
+.detail-heading h2, .story-layout h2, .context-section h2, .official-layout h2, .timeline-intro h2, .extended-layout h2, .patch-layout h2 { color: #f0f1ed; }
+.detail-heading h2 em, .story-layout h2 em, .context-section h2 em, .official-layout h2 em, .timeline-intro h2 em, .extended-layout h2 em, .patch-layout h2 em { color: #ff8350; }
+.detail-heading > p, .story-copy p, .extended-layout p, .patch-layout > div:last-child > p { color: #b5b8be; }
+.fact-section, .context-section, .timeline-intro, .history-timeline, .patch-status, .status-section, .source-note, .region-detail-content, .profile-content, .profile-source-note, .fact-section { color: #eef0ed; background-color: #0d1016; background-image: linear-gradient(rgba(190, 202, 220, .025) 1px, transparent 1px), linear-gradient(90deg, rgba(190, 202, 220, .025) 1px, transparent 1px); background-size: 48px 48px; }
+.fact-grid, .fact-card { border-color: #383c45; }
+.fact-card { background: #12151b; }
+.fact-card dt, .fact-card-note, .fact-note, .story-copy p, .context-card p, .status-layout p, .source-note p, .profile-fact p, .profile-fact ul { color: #b5b8be; }
+.fact-card dd, .profile-overview h2, .context-card h3, .mission-detail-grid h2, .mission-objective-list h2, .mission-related h2 { color: #f0f1ed; }
+.fact-card > a, .context-card > a, .fact-note a { color: #ff9a4a; }
+.confirmed-mark { color: #15100c; background: #ff704d; }
+.story-section, .official-section, .related-section, .extended-look { color: #eef0ed; background-color: #090b10; }
+.story-copy .text-link, .extended-layout .text-link, .related-section .text-link { border-color: #545962; color: #eceee9; }
+.context-section { background-color: #10131a; }
+.context-grid { border-color: #3a3e47; }
+.context-card, .context-card + .context-card { border-color: #3a3e47; }
+.context-card-index, .context-index { color: #ff9a4a; }
+.official-links { border-color: #454951; }
+.official-links > a { border-color: #393d45; }
+.official-links > a > span { color: #ff8953; }
+.official-links i { color: #afb2b8; }
+.status-section { background-color: #171a20; }
+.status-layout h2, .status-label { color: #f1f1ed; }
+.status-layout p { color: #b6b9bf; }
+.detail-page .text-link, .profile-image-link { border-color: #555a63; color: #eceee9; }
+.detail-page .text-link:hover, .profile-image-link:hover { color: #ff9a4a; }
+.fact-note { color: #b5b8be; }
+.fact-note .confirmed-mark { flex: 0 0 20px; }
+.detail-page .fact-note { border-color: #383c45; }
+.profile-overview > p, .profile-fact h3, .context-index, .event-content > p, .event-date > span, .event-links a, .timeline-top .text-link { color: #afb2b8; }
+.profile-facts, .profile-fact, .event-content { border-color: #393d45; }
+.profile-fact h3 { color: #ff9a4a; }
+.history-track::before, .timeline::before { background: #424650; }
+.event-marker, .timeline-dot { border-color: #0e1117; color: #ff8960; background: #151820; }
+.event-date time { color: #ff9a4a; }
+.event-content h3 { color: #f0f1ed; }
+.event-links a { color: #ff9a4a; }
+.history-event-last .event-content { border-color: transparent; }
+.source-note p { color: #999ea7; }
+.source-note p b { color: #eceee9; }
+.detail-footer { background: #080a0e; }
+.footer-simple > p, .footer-simple > a:not(.brand), .footer-simple > span { color: #a5a9b1; }
+.detail-page .fact-note, .fact-note { background: #12151b; }
+.fact-card-note { color: #b4b7bd; }
+.location-list { border-color: #383c45; }
+.location-list a { border-color: #383c45; color: #f0f1ed; }
+.location-list a span, .location-list a i { color: #ff9a4a; }
+.character-aside { border-color: #393d45; background: #151820; }
+.character-aside p { color: #f0f1ed; }
+.character-aside small { color: #aeb2b9; }
+.aside-line { background: #ff634b; }
+.card-wash { background: linear-gradient(0deg, #080a0ee8, transparent 65%); }
+.vehicle-card, .vehicle-database-card, .directory-card, .context-card, .fact-card { background-color: #14171d; }
+.vehicle-card-copy, .directory-card-body, .context-card p { color: #eef0ed; }
+.vehicle-card-copy > span:last-child, .directory-card-body > span:last-child { color: #afb2b8; }
+.vehicle-card-category, .directory-card-categories, .vehicle-card-tag { color: #ff9a4a; }
+.vehicle-card-actions { border-top: 1px solid #333740; }
+.vehicle-detail-fields, .vehicle-detail-field, .weapon-stat-grid, .weapon-stat-grid > div { border-color: #373b44; }
+.vehicle-detail-field dt, .weapon-stat-grid dt { color: #ff9a4a; }
+.vehicle-detail-field dd, .weapon-stat-grid dd { color: #e9eae6; }
+.vehicle-detail-footer, .profile-source-note { background-color: #12151b; }
+.vehicle-detail-footer p, .profile-source-note p { color: #adb1b8; }
+.vehicle-detail-footer p b, .profile-source-note p b { color: #f0f1ed; }
+.vehicle-detail-footer a, .profile-source-note a { color: #ff9a4a; }
+.vehicle-state-empty { border-color: #3a3e47; background: #12151b; }
+.vehicle-state-empty h2 { color: #f1f1ed; }
+.vehicle-state-empty p { color: #afb2b8; }
+.vehicle-results-bar p, .vehicle-source-note, .vehicle-category-basis { color: #aeb2b9; }
+.vehicle-results-bar a, .vehicle-category-basis b { color: #ff9a4a; }
+.vehicle-directory-toolbar, .vehicle-category-filter, .vehicle-search input, .vehicle-sort select { border-color: #383c45; }
+.vehicle-directory-toolbar input, .vehicle-directory-toolbar select { color: #f0f1ed; background: #13161c; }
+.vehicle-category-filter { color: #c3c5ca; background: #11141a; }
+.vehicle-category-filter.is-active { border-color: #ed493b; background: #441c20; }
+.vehicle-category-filter.is-active > span { color: #ff9a4a; }
+.favorites-filter { border-color: #454850; color: #d5d6d3; }
+.favorites-filter.is-active { border-color: #ed493b; color: #ffaaa0; background: #411d20; }
+.vehicle-comparison { border-color: #3a3d44; background: #12151b; }
+.comparison-table, .comparison-row, .comparison-vehicle-heading, .comparison-row > *, .comparison-label-spacer { border-color: #383c45; }
+.comparison-heading h2, .comparison-vehicle-heading b { color: #f0f1ed; }
+.comparison-heading > p, .comparison-row > b { color: #a9adb4; }
+.comparison-row > span { color: #e4e5e1; }
+.comparison-vehicle-heading button { color: #ff9a4a; }
+.weapon-icon-action, .weapon-stat-track { border-color: #40434a; color: #d1d2ce; background: #15181e; }
+.weapon-icon-action.is-favorite { border-color: #ed493b; color: #ffaaa0; background: #411d20; }
+.weapon-icon-action.is-compared { border-color: #ff9a4a; color: #ffc184; background: #392619; }
+.weapon-directory-toolbar input, .weapon-directory-toolbar select, .weapon-category-filter { border-color: #393c43; color: #e7e8e3; background: #13161b; }
+.weapon-category-filter.is-active { border-color: #ed493b; color: white; background: #441c20; }
+.weapon-category-filter.is-active > span { color: #ff9a4a; }
+.weapon-source-note { color: #a8acb3; }
+.weapon-detail-page { color: #f0f1ed; background-color: #090a0d; background-image: linear-gradient(rgba(190, 202, 220, .025) 1px, transparent 1px), linear-gradient(90deg, rgba(190, 202, 220, .025) 1px, transparent 1px); background-size: 48px 48px; }
+.weapon-detail-copy > p, .weapon-detail-verification-note { color: #b1b4bb; }
+.weapon-detail-copy .section-kicker { color: #ff9a4a; }
+.weapon-stat-grid, .weapon-stat-grid > div { border-color: #3b3e45; background: #12151a; }
+.weapon-stat-grid dt { color: #acafb5; }
+.weapon-stat-grid dd { color: #f0f1ed; }
+.weapon-detail-main-image a, .weapon-detail-copy .text-link { color: #ff9a4a; }
+.encyclopedia-page:not(.weapons-page) { color: #eef0ed; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-content { background-color: #0d1016; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-toolbar { border-color: #383c45; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-toolbar label > span { color: #a8abb2; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-toolbar input { border-color: #3e424b; color: #f0f1ed; background: #14171d; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-count { color: #a3a6ac; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-filters button { border-color: #3b3f47; color: #d2d3cf; background: #14171d; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-filters button.is-active { border-color: #ed493b; color: white; background: #461e21; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-filters button.is-active span { color: #ff9a4a; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-card { color: #f0f1ed; background: #14171d; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-card-copy > span, .encyclopedia-page:not(.weapons-page) .encyclopedia-card-copy i { color: #ff9a4a; }
+.encyclopedia-page:not(.weapons-page) .encyclopedia-card-copy small { color: #b2b5bb; }
+.encyclopedia-page:not(.weapons-page) .database-empty { border-color: #373a42; color: #f0f1ed; background: #13161c; }
+.encyclopedia-page:not(.weapons-page) .database-empty .section-kicker { color: #ff9a4a; }
+.encyclopedia-page:not(.weapons-page) .database-empty p { color: #b0b3b9; }
+.explorer-page { color: #f0f1ed; background-color: #0a0c11; }
+.explorer-content { color: #f0f1ed; background-color: #0d1016; }
+.explorer-heading h2 { color: #f0f1ed; }
+.explorer-heading h2 em { color: #ff9a4a; }
+.explorer-heading > p { color: #b4b7bd; }
+.explorer-search > span { color: #b0b3b9; }
+.explorer-search input { border-color: #3a3d45; color: #f0f1ed; background: #13161c; }
+.region-card { color: #f0f1ed; background: #14171d; }
+.region-card.is-selected { outline-color: #ff674d; }
+.region-card-region { color: #ff9a4a; }
+.region-card-select > b { color: #f0f1ed; }
+.region-card-bottom { border-color: #3b3e45; color: #aeb2b8; }
+.region-card-bottom a { border-color: #4a4e56; color: #ff9a4a; }
+.map-integrity-note { border-color: #ff704d; color: #b4b7bd; background: #14171d; }
+.map-integrity-note b { color: #f0f1ed; }
+.region-detail-content { color: #f0f1ed; background-color: #0d1016; }
+.region-detail-copy h2 { color: #f0f1ed; }
+.region-detail-copy > p, .region-detail-copy section > p { color: #b3b6bc; }
+.region-detail-copy h3 { color: #ff9a4a; }
+.region-detail-copy ul { color: #e0e1dd; }
+.region-related-characters a { border-color: #454850; color: #ff9a4a; }
+.region-detail-image > a { color: #ff9a4a; }
+.region-back-link { color: #f2f0eb; }
+.weapon-detail-page .weapon-detail-content { background-color: #0d1016; }
+.weapon-detail-page .weapon-detail-fields { border-color: #393d44; }
+.weapon-detail-page .weapon-detail-fields > div { border-color: #393d44; background: #14171d; }
+.weapon-detail-page .weapon-detail-fields dt { color: #ff9a4a; }
+.weapon-detail-page .weapon-detail-fields dd { color: #e8e8e4; }
+.weapon-detail-page .weapon-source-link { color: #ff9a4a; }
+.weapon-detail-page .weapon-detail-main-image { background: #15181e; }
+.weapon-detail-page .weapon-detail-favorite { border-color: #44474f; color: #e0e1dd; background: #14171d; }
+.weapon-detail-page .weapon-detail-favorite.is-favorite { border-color: #ed493b; color: #ffaaa0; background: #421e21; }
+.weapon-detail-page .region-back-link { color: #f2f0eb; }
+.weapon-detail-page .region-back-link:hover { color: #ff9a4a; }
+.news-archive-page, .news-detail-page { color: #f0f1ed; background-color: #090b10; background-image: linear-gradient(rgba(190, 202, 220, .025) 1px, transparent 1px), linear-gradient(90deg, rgba(190, 202, 220, .025) 1px, transparent 1px); background-size: 48px 48px; }
+.news-archive-content { color: #f0f1ed; background-color: #0d1016; }
+.news-archive-toolbar { border-color: #393d45; }
+.news-archive-toolbar label > span { color: #aeb2b8; }
+.news-archive-toolbar input { border-color: #42454d; color: #f0f1ed; background: #15181e; }
+.news-archive-toolbar > a, .news-archive-note a { color: #ff9a4a; }
+.news-archive-filters button { border-color: #3c4047; color: #d5d6d1; background: #14171d; }
+.news-archive-filters button.is-active { border-color: #ff7654; color: white; background: #462129; }
+.news-archive-filters button.is-active span { color: #ffb06e; }
+.news-archive-count, .news-archive-note { color: #a5a9b0; }
+.news-archive-card { color: #f0f1ed; background: #14171d; }
+.news-archive-card:hover { background: #1b1e25; }
+.news-archive-card-copy time { color: #ff9a4a; }
+.news-archive-card-copy b { color: #f0f1ed; }
+.news-archive-card-copy small { color: #b7bac0; }
+.news-archive-card-copy i { color: #ff9a4a; }
+.news-archive-category { color: #110d0b; background: #ff704d; }
+.news-detail-content { color: #f0f1ed; background-color: #0d1016; }
+.news-detail-story > p { color: #b7bac0; }
+.news-detail-aside { border-color: #393d45; background: #15181e; }
+.news-detail-aside > a { color: #e0e1dc; }
+.news-detail-aside > a:hover { color: #ff9a4a; }
+.news-video-link { border-color: #4a3435; color: #f0f1ed; background: #171418; }
+.news-video-play { border-color: #ff654d; color: #ff9673; }
+.news-video-link small { color: #ff9a4a; }
+.news-video-arrow { color: #ff9a4a; }
+
+@media (max-width: 850px) {
+  .main-nav { transform: none; clip-path: inset(0 0 100% 0); visibility: hidden; opacity: 0; pointer-events: none; transition: clip-path .26s ease, opacity .2s ease, visibility .26s ease; }
+  .main-nav.is-open { transform: none; clip-path: inset(0); visibility: visible; opacity: 1; pointer-events: auto; }
+}
+
+@media (max-width: 600px) {
+  .weapon-filter-toolbar { grid-template-columns: 1fr 1fr; }
+  .weapon-filter-toolbar > label:first-child { grid-column: 1 / -1; }
+  .weapon-filter-toolbar > label > span { color: #a7abb2; }
+  .weapon-filter-toolbar select { border-color: #393c43; color: #e7e8e3; background: #13161b; }
+  .weapon-favorites-filter { border-color: #393c43; color: #d4d5d0; background: #12151a; }
+  .weapon-favorites-filter.is-active { border-color: #ed493b; color: #ffaaa0; background: #411d20; }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "gta-vi-world",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "node --watch server/index.js --dev",
+    "dev:client": "vite --config vite.config.js --host 0.0.0.0",
+    "build": "vite build --config vite.config.js",
+    "start": "node server/index.js",
+    "preview": "vite preview --config vite.config.js --host 0.0.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^9.1.2",
+    "vite": "^7.0.0"
+  }
+}
