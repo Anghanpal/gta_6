@@ -1040,3 +1040,18 @@
   .news-detail-hero-copy h1 { font-size: 58px; }
   .news-detail-content { grid-template-columns: 1fr; gap: 26px; padding-top: 43px; padding-bottom: 60px; }
 }
+
+@media (max-width: 600px) {
+  body.detail-page h1 {
+    max-width: 100%;
+    font-size: clamp(52px, 17vw, 78px);
+    overflow-wrap: anywhere;
+  }
+
+  body.detail-page input,
+  body.detail-page select,
+  body.detail-page textarea {
+    max-width: 100%;
+    font-size: 16px;
+  }
+}
